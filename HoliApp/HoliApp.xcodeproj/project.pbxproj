@@ -14,6 +14,8 @@
 		C444469C292E564700ECA86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444469B292E564700ECA86C /* Assets.xcassets */; };
 		C444469F292E564700ECA86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C444469D292E564700ECA86C /* LaunchScreen.storyboard */; };
 		C44446A82933ABBA00ECA86C /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44446A62933ABBA00ECA86C /* Second.storyboard */; };
+		C44446AE2933C38A00ECA86C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44446AC2933C38A00ECA86C /* CollectionViewCell.swift */; };
+		C44446AF2933C38A00ECA86C /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44446AD2933C38A00ECA86C /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C444469E292E564700ECA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44446A0292E564700ECA86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44446A72933ABBA00ECA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HoliApp/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		C44446AC2933C38A00ECA86C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C44446AD2933C38A00ECA86C /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		C4444691292E564500ECA86C /* HoliApp */ = {
 			isa = PBXGroup;
 			children = (
+				C44446AB2933C2A200ECA86C /* Model */,
+				C44446AA2933C26200ECA86C /* Cells */,
 				C4444692292E564500ECA86C /* AppDelegate.swift */,
 				C4444694292E564500ECA86C /* SceneDelegate.swift */,
 				C4444696292E564500ECA86C /* ViewController.swift */,
@@ -68,6 +74,22 @@
 				C44446A0292E564700ECA86C /* Info.plist */,
 			);
 			path = HoliApp;
+			sourceTree = "<group>";
+		};
+		C44446AA2933C26200ECA86C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C44446AC2933C38A00ECA86C /* CollectionViewCell.swift */,
+				C44446AD2933C38A00ECA86C /* CollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C44446AB2933C2A200ECA86C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +153,7 @@
 				C444469F292E564700ECA86C /* LaunchScreen.storyboard in Resources */,
 				C444469C292E564700ECA86C /* Assets.xcassets in Resources */,
 				C444469A292E564500ECA86C /* Main.storyboard in Resources */,
+				C44446AF2933C38A00ECA86C /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +166,7 @@
 			files = (
 				C4444697292E564500ECA86C /* ViewController.swift in Sources */,
 				C4444693292E564500ECA86C /* AppDelegate.swift in Sources */,
+				C44446AE2933C38A00ECA86C /* CollectionViewCell.swift in Sources */,
 				C4444695292E564500ECA86C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
