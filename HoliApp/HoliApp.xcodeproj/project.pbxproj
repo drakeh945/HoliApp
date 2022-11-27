@@ -13,6 +13,7 @@
 		C444469A292E564500ECA86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4444698292E564500ECA86C /* Main.storyboard */; };
 		C444469C292E564700ECA86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C444469B292E564700ECA86C /* Assets.xcassets */; };
 		C444469F292E564700ECA86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C444469D292E564700ECA86C /* LaunchScreen.storyboard */; };
+		C44446A82933ABBA00ECA86C /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44446A62933ABBA00ECA86C /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C444469B292E564700ECA86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C444469E292E564700ECA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44446A0292E564700ECA86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44446A72933ABBA00ECA86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HoliApp/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C4444686292E564500ECA86C = {
 			isa = PBXGroup;
 			children = (
+				C44446A62933ABBA00ECA86C /* Second.storyboard */,
 				C4444691292E564500ECA86C /* HoliApp */,
 				C4444690292E564500ECA86C /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44446A82933ABBA00ECA86C /* Second.storyboard in Resources */,
 				C444469F292E564700ECA86C /* LaunchScreen.storyboard in Resources */,
 				C444469C292E564700ECA86C /* Assets.xcassets in Resources */,
 				C444469A292E564500ECA86C /* Main.storyboard in Resources */,
@@ -160,6 +164,14 @@
 				C444469E292E564700ECA86C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C44446A62933ABBA00ECA86C /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44446A72933ABBA00ECA86C /* Base */,
+			);
+			name = Second.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
