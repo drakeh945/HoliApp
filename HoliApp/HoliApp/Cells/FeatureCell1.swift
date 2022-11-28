@@ -1,13 +1,13 @@
 //
-//  CollectionViewCell.swift
+//  FeatureCell1.swift
 //  HoliApp
 //
-//  Created by Drake Herring on 11/27/22.
+//  Created by Drake Herring on 11/25/22.
 //
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
+class FeatureCell1: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
