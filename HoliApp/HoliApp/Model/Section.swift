@@ -52,7 +52,16 @@ enum EventSectionType: String{
 }
 
 
+struct SectionType: RawRepresentable, Hashable {
+    typealias RawValue = String
+    var rawValue: String
     
-    
-    
+    init(rawValue: String) {
+        self.rawValue = rawValue
+    }
+
 }
+    
+
+static let header = SectionType(rawValue:
+Section.EventSectionType.header.rawValue)
